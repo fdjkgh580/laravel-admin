@@ -28,4 +28,10 @@ Route::prefix('admin')->group(function ()
     Route::get('/', 'Admin\DashboardController@index');
     Route::resource('login', 'Admin\LoginController');
     Route::get('logout', 'Admin\LoginController@logout');
+    Route::resource('users', 'Admin\UsersController');
+    Route::resource('status', 'Admin\StatusController');
+    Route::resource('types', 'Admin\TypesController');
+    Route::resource('images', 'Admin\ImagesController');
+    Route::resource('articles', 'Admin\ArticlesController');
+    Route::resource('files', 'Admin\FilesController');
 });

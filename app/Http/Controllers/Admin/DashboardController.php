@@ -9,6 +9,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return '儀錶板';
+        return view('admin.dashboard.index');
     }
 }
