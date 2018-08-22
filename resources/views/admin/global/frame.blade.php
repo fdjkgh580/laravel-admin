@@ -42,15 +42,6 @@
                     </li>
                 </ul>
 
-                {{-- 麵包屑 --}}
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Library</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Data</li>
-                    </ol>
-                </nav>
-
                 {{-- 內容區塊 --}}
                 <div class="content">
                     <h1>{{ $h1 }}</h1>
