@@ -14,7 +14,7 @@ class TypesController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.dashboard.index', ['h1' => 'Types']);
     }
 
     /**
